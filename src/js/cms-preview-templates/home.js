@@ -21,6 +21,7 @@ export default class PostPreview extends React.Component {
             <h2 className="f2 b lh-title mb2 w-40-l">{entry.getIn(["data", "blurb", "heading"])}</h2>
             <p className="w-60-l mb0">{entry.getIn(["data", "blurb", "text"])}</p>
           </div>
+         
         </div>
 
         <div className="bg-off-white pv4">
@@ -36,7 +37,8 @@ export default class PostPreview extends React.Component {
             </div>
 
             <div className="tc">
-              <a href="#" className="btn raise">See all products</a>
+              <a href="#" className="btn raise">See all productsasdasd</a>
+
             </div>
           </div>
         </div>
